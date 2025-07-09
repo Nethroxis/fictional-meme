@@ -1,5 +1,0 @@
-{
-  "name": "Minecraft‑Server Codespace",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "postStartCommand": "pkill syncthing || true && syncthing -home=/workspaces/.syncthing-config &> /workspaces/syncthing.log &"
-}
